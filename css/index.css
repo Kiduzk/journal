@@ -1,0 +1,45 @@
+:root {
+    --mainColor: #212529;
+    --textColor: #4B5257;
+    --secondaryTextColor: #ECB409;
+    --mainTextColor: #F8F9FA;
+}
+
+.gridContainer {
+    display: grid;
+    /* grid-template-rows: 1fr 1fr 1fr 1fr; */
+    /* row-gap: 5px; */
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    margin: 0px;
+}
+.header {
+    font-family: "BioRhyme";
+    color: var(--mainTextColor);
+    background-color: var(--mainColor);
+    text-align: center;
+    /* width: 100%; */
+    top: 0;
+    position: sticky;
+    border-top: 10px var(--secondaryTextColor) solid;
+}
+.content {
+    font-family: "Abel";
+    background-color: var(--mainColor);
+    color: var(--textColor);
+}
+.footer {
+    border-bottom: 20px var(--mainColor) solid;
+    position: sticky;
+    bottom: 0;
+}
+
+h3 {
+    font-family: "Merriweather";
+    color: var(--secondaryTextColor);
+}
+
