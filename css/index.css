@@ -17,6 +17,23 @@ html {
 body {
     margin: 0px;
 }
+h3 {
+    font-family: "Merriweather";
+    color: var(--secondaryTextColor);
+}
+a {
+    color: var(--secondaryTextColor);
+}
+ul {
+    list-style-type: square;
+}
+.navigation {
+    font-family: "Abel";
+    margin: 0;
+    background-color: var(--mainColor);
+    position: sticky;
+    top: 0;
+}
 .header {
     font-family: "BioRhyme";
     color: var(--mainTextColor);
@@ -28,6 +45,7 @@ body {
     border-top: 10px var(--secondaryTextColor) solid;
 }
 .content {
+    height: 87vh;
     font-family: "Abel";
     background-color: var(--mainColor);
     color: var(--textColor);
@@ -37,9 +55,5 @@ body {
     position: sticky;
     bottom: 0;
 }
-
-h3 {
-    font-family: "Merriweather";
-    color: var(--secondaryTextColor);
-}
-
+#quote {text-align: center;}
+#flag {text-align: center;}
