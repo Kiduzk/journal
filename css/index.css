@@ -57,5 +57,14 @@ ul {
     position: sticky;
     bottom: 0;
 }
+#reset {
+    background-color: var(--secondaryTextColor);
+    color: var(--mainColor);
+    font-family: "Merriweather";
+    font-size: 15px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
 #quote {text-align: center;}
 #flag {text-align: center;}
